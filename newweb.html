@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url("img1.jpg") no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        /* Navigation bar */
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            font-size: 18px;
+            transition: background 0.3s;
+        }
+
+        .navbar a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 5px;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .hero img {
+            width: 200px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-top: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        /* Content Sections */
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 20px;
+        }
+
+        .box {
+            width: 30%;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .box img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="navbar">
+        <a href="#">HOME</a>
+        <a href="#">CONTACT-US</a>
+        <a href="#">ABOUT-US</a>
+        <a href="#">SERVICES</a>
+        <a href="#">PRODUCT</a>
+        <a href="login.html">LOGIN</a>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <img src="img1.jpg" alt="Cute Panda">
+        <h1>Welcome to Panda World 🐼</h1>
+        <p>Where cuteness meets creativity</p>
+    </div>
+
+    <!-- Content Boxes -->
+    <div class="container">
+        <div class="box">
+            <h2>About Us</h2>
+            <img src="img2.jpg" alt="About">
+            <p>We love pandas and create websites inspired by them.</p>
+        </div>
+        <div class="box">
+            <h2>Services</h2>
+            <img src="img2.jpg" alt="Services">
+            <p>We provide web design and development services with fun designs.</p>
+        </div>
+        <div class="box">
+            <h2>Products</h2>
+            <img src="img2.jpg" alt="Product">
+            <p>Check out our panda-themed products and digital goodies.</p>
+        </div>
+    </div>
+</body>
+</html>

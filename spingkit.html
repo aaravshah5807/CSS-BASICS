@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="style.css" rel="stylesheet" />
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" rel="stylesheet"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link href="spinkit.css" rel="stylesheet">
+
+    <style>
+
+        .sk-chase-dot:before{
+            background-color: red;
+        }
+        img.roundImg {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .sk-wave-rect{
+            background-color: rgb(36, 142, 199);
+        }
+        .sk-plane {
+            background-color:blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="sk-plane"></div>
+    <br><br>
+    <div class="sk-chase">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+      </div>
+      <br><br>
+      <div class="sk-wave">
+        <div class="sk-wave-rect"></div>
+        <div class="sk-wave-rect"></div>
+        <div class="sk-wave-rect"></div>
+        <div class="sk-wave-rect"></div>
+        <div class="sk-wave-rect"></div>
+      </div>
+
+    <br><Br>
+    <div class="box">
+        <table>
+
+            <tr>
+                <th>TeamName</th>
+                <th>Location</th>
+                <th>Captain</th>
+                <th>Rank</th>
+                <th>Logo</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>Team A</td>
+                <td>City X</td>
+                <td><img class="roundImg" src="sachin.jpg" /></td>
+                <td><span class="percentage">11.12%</span> </td>
+                <td><i class="fa-solid fa-earth-americas icon-green"></i></td>
+                <td><label class="active">Active</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Team B</td>
+                <td>City Y</td>
+                <td><img class="roundImg" src="sachin.jpg" /></td>
+
+                <td>2</td>
+                <td><i class="fa-solid fa-moon"></i></td>
+                <td><label class="inactive">InActive</label>
+            </tr>
+            <tr>
+                <td>Team C</td>
+                <td>City Z</td>
+                <td><img class="roundImg" src="sachin.jpg" /></td>
+
+                <td>3</td>
+                <td><i class="fa-solid fa-plane-departure icon-red fa-spin"></i></td>
+                <td><label class="active">Active</label>
+            </tr>
+            <tr>
+                <td>Team D</td>
+                <td>City W</td>
+
+                <td><img class="roundImg" src="sachin.jpg" /></td>
+                <td>4</td>
+                <td><i class="fa-brands fa-studiovinari fa-pulse"></i></td>
+                <td><label class="inactive">InActive</label>
+            </tr>
+            <tr>
+                <td>Team E</td>
+                <td>City V</td>
+                <td><img class="roundImg" src="sachin.jpg" /></td>
+
+                <td>5</td>
+                <td>
+                    <i class="bi bi-triangle"></i>
+                </td>
+
+                <td><label class="active">Active</label>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
